@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)http://127.0.0.1:5500/Project/Project_01/index.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project-mini-1</title>
+    
+    
+    
+    
+<link rel="stylesheet" href="./Project-mini-1_files/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"><link rel="stylesheet" href="./Project-mini-1_files/reset.css"><link rel="stylesheet" href="./Project-mini-1_files/base.css"><link rel="stylesheet" href="./Project-mini-1_files/style.css"></head>
+
+<body>
+    <!-- Header  -->
+    <header class="header">
+        <div class="container-secondary">
+            <div class="inner-wrap">
+                <a href="http://127.0.0.1:5500/" class="inner-logo">
+                    <img src="./Project-mini-1_files/logo.png" alt="logo">
+                    <div class="content">
+                        SoftwareM4
+                    </div>
+                </a>
+                <div class="inner-menu">
+                    <ul class="list">
+                        <a href="http://127.0.0.1:5500/Project/Project_01/index.html#">
+                            <li class="item">Home</li>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Project/Project_01/index.html#">
+                            <li class="item">About</li>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Project/Project_01/index.html#">
+                            <li class="item">Services</li>
+                        </a>
+                        <a href="http://127.0.0.1:5500/Project/Project_01/index.html#">
+                            <li class="item">Contact</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="inner-social">
+                    <a href="https://www.facebook.com/" class="icon" target="_blank">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://x.com/" class="icon" target="_blank">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                    <a href="https://www.instagram.com/" class="icon" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- End Header  -->
+
+    <!-- Section one  -->
+    <div class="section-one">
+        <img src="./Project-mini-1_files/section-one.avif" alt="section-one">
+        <div class="container">
+            <div class="inner-wrap">
+            <div class="content">
+                Developer Company
+            </div>
+            <div class="title">Software App</div>
+            <div class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Accumsan porttitor egestas fermentum nulla. </div>
+            <div class="list">
+                <div class="button">Out Serices</div>
+                <div class="button">Learn More</div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Section one  -->
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+</body></html>

@@ -1,0 +1,157 @@
+
+/* Header */
+.button
+{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: var(--color-text);
+    color: black;   
+    padding: 15px 30px;
+    border-radius: 5px;
+
+}
+.button:hover
+{
+    background-color: white;
+}
+.header
+{
+    background-color: var(--color-one);
+}
+.header .inner-wrap
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .inner-wrap .inner-logo 
+{
+    display: inline-flex;
+    align-items: center;
+}
+
+.header .inner-wrap .inner-logo img
+{
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.header .inner-wrap .inner-logo .content
+{
+    font-size: 22px;
+    font-weight: 800;
+    color: black;
+}
+.header .inner-wrap .inner-logo .content:hover
+{
+    color: var(--color-three);
+}
+
+
+.header .inner-wrap .inner-menu ul
+{
+    display: inline-flex;
+    height: 100%;
+    justify-content: center;
+
+}
+
+.header .inner-wrap .inner-menu ul a
+{
+    color: black;
+}
+
+.header .inner-wrap .inner-menu ul a li:hover
+{
+    color: var(--color-three);
+}
+.header .inner-wrap .inner-menu ul a
+{
+    list-style-type: none;
+    padding: 40px 20px;
+    font-size: 20px;
+    color: black;
+}
+
+.header .inner-wrap .inner-menu ul a:hover
+{
+    background-color: white;
+
+}
+
+.header .inner-wrap .inner-social
+{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .inner-wrap .inner-social a
+{
+    padding: 10px 20px;
+    background-color: white;
+    margin-right: 10px;
+    color: black;
+    font-size: 20px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+/* End Header */
+
+/* Section-one */
+.section-one
+{
+    position: relative;
+}
+.section-one img
+{
+    width: 100%;
+    object-fit: cover;
+    aspect-ratio: 16 / 6.7;
+    opacity: 0.8;
+}
+
+.section-one .container
+{
+    position: absolute;
+    top: 100px;
+    left: 120px;
+    color: white;
+    width: 30%;
+}
+
+.section-one .content
+{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.section-one .title
+{
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-one .desc
+{
+    margin-bottom: 20px;
+}
+
+.section-one .button:nth-child(2)
+{
+    margin-right: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid var(--color-three);
+}
+.section-one .button:nth-child(2):hover
+{
+    background-color: var(--color-text);
+    color: black;
+}
+/* End section-one */
